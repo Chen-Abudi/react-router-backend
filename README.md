@@ -26,7 +26,7 @@
 
 # ✨ How to Get Started:
 
-## Clone Project:
+## **`1.`** Clone Project:
 
 ```bash
 
@@ -34,7 +34,7 @@ git clone https://github.com/Chen-Abudi/react-router-full
 
 ```
 
-## Enter the project directory:
+## **`2.`** Enter the project directory:
 
 ```bash
 
@@ -42,7 +42,7 @@ cd react-router-full
 
 ```
 
-## Then enter the frontend folder:
+## **`3.`** Then enter the frontend folder:
 
 ```bash
 
@@ -50,7 +50,7 @@ cd frontend
 
 ```
 
-## Install the Dependencies in **Frontend Folder**:
+## **`4.`** Install the Dependencies in **Frontend Folder**:
 
 ```bash
 
@@ -66,7 +66,7 @@ npm i
 
 ```
 
-## Do the same for the Backend, First enter the project directory:
+## **`5.`** Do the same for the Backend, First enter the project directory:
 
 ```bash
 
@@ -74,7 +74,7 @@ cd backend
 
 ```
 
-## Then install the dependencies:
+## **`6.`** Then install the dependencies:
 
 ```bash
 
@@ -92,7 +92,7 @@ npm i
 
 ## 🧠 **Don't forget to add gitignore to both directories**!
 
-## 🚀 Launch for the Frontend mode:
+## 🚀 **`7.`** Launch for the Frontend mode:
 
 ```bash
 
@@ -100,7 +100,7 @@ npm run start
 
 ```
 
-## 🚀 And in separate terminal, Launch the Backend server:
+## 🚀 **`8.`** And in separate terminal, Launch the Backend server:
 
 ```bash
 
