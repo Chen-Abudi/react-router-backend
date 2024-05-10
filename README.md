@@ -26,6 +26,88 @@
 
 # ✨ How to Get Started:
 
+## Clone Project:
+
+```bash
+
+git clone https://github.com/Chen-Abudi/react-router-full
+
+```
+
+## Enter the project directory:
+
+```bash
+
+cd react-router-full
+
+```
+
+## Then enter the frontend folder:
+
+```bash
+
+cd frontend
+
+```
+
+## Install the Dependencies in **Frontend Folder**:
+
+```bash
+
+npm install
+
+```
+
+**_or in short_**
+
+```bash
+
+npm i
+
+```
+
+## Do the same for the Backend, First enter the project directory:
+
+```bash
+
+cd backend
+
+```
+
+## Then install the dependencies:
+
+```bash
+
+npm install
+
+```
+
+**_or in short_**
+
+```bash
+
+npm i
+
+```
+
+## 🧠 **Don't forget to add gitignore to both directories**!
+
+## 🚀 Launch for the Frontend mode:
+
+```bash
+
+npm run start
+
+```
+
+## 🚀 And in separate terminal, Launch the Backend server:
+
+```bash
+
+node app.js
+
+```
+
 ---
 
 ## 🔗 Additional Link:
