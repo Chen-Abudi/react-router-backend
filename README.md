@@ -90,7 +90,7 @@ npm i
 
 ```
 
-## 🧠 **Don't forget to add gitignore to both directories**!
+## 🧠 **_`Don't forget to add gitignore to both directories`_**!
 
 ## 🚀 **`7.`** Launch for the Frontend mode:
 
