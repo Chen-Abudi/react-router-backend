@@ -16,7 +16,7 @@
 
 ## 🧰 Tech Stack:
 
-- React
+- React + React Router
 - JavaScript
 - NodeJS
 - ExpressJS
@@ -24,7 +24,7 @@
 
 ## 🛠️ Techniques:
 
-- React Router
+- React Router Dom Hooks
 
 ---
 
