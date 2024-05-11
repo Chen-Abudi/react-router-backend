@@ -16,11 +16,15 @@
 
 ## 🧰 Tech Stack:
 
-- React + React Router
+- React
 - JavaScript
 - NodeJS
 - ExpressJS
 - CSS Modules
+
+## 🛠️ Techniques:
+
+- React Router
 
 ---
 
