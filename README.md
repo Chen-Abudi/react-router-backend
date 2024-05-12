@@ -28,6 +28,11 @@
 - Relative Paths
 - Nested Routes
 - Indexed Route
+- **`React Hooks`**:
+  - **useParams**: This hook gives an access to multiple contents in the same URL path, then it enables each parameter to have a unique identification.
+- **`React Router Components`**:
+  - **NavLink**: Is used for navigation between pages.
+  - **Outlet**: Is a component provided by React Router that serves as a placeholder for child routes within a parent route.
 
 ---
 
