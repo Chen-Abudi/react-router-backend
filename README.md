@@ -24,7 +24,8 @@
 
 ## 🛠️ Techniques:
 
-- **React Router Dom Hooks**
+- **`React Router Dom Hooks`**:
+  - **useLoaderData**: Is a hook that helps to fetch the data for the component before it renders. It improves performance and prevents empty states.
 - Relative Paths
 - **`React Hooks`**:
   - **useParams**: This hook gives an access to multiple contents in the same URL path, then it enables each parameter to have a unique identification.
