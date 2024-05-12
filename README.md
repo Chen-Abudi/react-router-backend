@@ -25,9 +25,11 @@
 ## 🛠️ Techniques:
 
 - **`React Router Dom Hooks`**:
+
   - **useLoaderData**: Is a hook that helps to fetch the data for the component before it renders. It improves performance and prevents empty states.
 
     **`Note`**: This hook can be used only in the element that's assigned to a route **AND** in all components that might be used inside that element but not on a higher level route.
+
 - Relative Paths
 - **`React Hooks`**:
   - **useParams**: This hook gives an access to multiple contents in the same URL path, then it enables each parameter to have a unique identification.
@@ -36,6 +38,8 @@
   - **Outlet**: Is a component provided by React Router that serves as a placeholder for child routes within a parent route.
 - **Nested Routes**
 - **Indexed Routes**
+- **Handling Errors**
+- **Custom Error**
 
 ---
 
