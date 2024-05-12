@@ -17,8 +17,6 @@ export async function loader() {
   if (!response.ok) {
     // TODO: Handle error response
   } else {
-    // const resData = await response.json();
-    // return resData.events;
     return response;
   }
 }
