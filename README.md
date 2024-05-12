@@ -25,6 +25,9 @@
 ## 🛠️ Techniques:
 
 - React Router Dom Hooks
+- Relative Paths
+- Nested Routes
+- Indexed Route
 
 ---
 
