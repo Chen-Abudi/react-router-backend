@@ -4,6 +4,11 @@ import EventsList from "../components/EventsList.js";
 
 function EventsPage() {
   const data = useLoaderData();
+
+  if (data.isError) {
+    return <p>{data.message}</p>;
+  }
+
   const events = data.events;
 
   return <EventsList events={events} />;
@@ -12,10 +17,11 @@ function EventsPage() {
 export default EventsPage;
 
 export async function loader() {
-  const response = await fetch("http://localhost:8080/events");
+  const response = await fetch("http://localhost:8080/eventsd");
 
   if (!response.ok) {
-    // TODO: Handle error response
+    // return { isError: true, message: "Could not fetch events." };
+    throw new Error(response.message);
   } else {
     return response;
   }
