@@ -17,9 +17,11 @@
 // - COMPLETED
 
 // 3. Add a root layout that adds the <MainNavigation> component above all page components
-// COMPLETED
+// - COMPLETED
 
 // 4. Add properly working links to the MainNavigation
+// - COMPLETED
+
 // 5. Ensure that the links in MainNavigation receive an "active" class when active
 // 6. Output a list of dummy events to the EventsPage
 //    Every list item should include a link to the respective EventDetailPage
