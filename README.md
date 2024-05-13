@@ -36,10 +36,8 @@
 - **`React Router Components`**:
   - **NavLink**: Is used for navigation between pages.
   - **Outlet**: Is a component provided by React Router that serves as a placeholder for child routes within a parent route.
-- **Nested Routes**
-- **Indexed Routes**
-- **Handling Errors**
-- **Custom Error**
+- **Nested Routes, Indexed Routes, and Dynamic Routes**.
+- **Handling Errors, and use Custom Error Handler**.
 
 ---
 
