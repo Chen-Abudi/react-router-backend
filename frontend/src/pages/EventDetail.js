@@ -3,17 +3,9 @@ import { json, useLoaderData } from "react-router-dom";
 import EventItem from "../components/EventItem.js";
 
 function EventDetailPage() {
-  // const params = useParams();
-
   const data = useLoaderData();
 
-  return (
-    // <>
-    //   <h1>Event Detail Page</h1>
-    //   <p>Event ID: {params.eventId}</p>
-    // </>
-    <EventItem event={data.event} />
-  );
+  return <EventItem event={data.event} />;
 }
 
 export default EventDetailPage;
