@@ -30,6 +30,8 @@
 
     **`Note`**: This hook can be used only in the element that's assigned to a route **AND** in all components that might be used inside that element but not on a higher level route.
 
+  - **useRouteLoaderData**: Is a hook that efficiently manages loading states and data for specific routes. It optimizes rendering by fetching data only when needed, enhancing user experience.
+
 - Relative Paths
 - **`React Hooks`**:
   - **useParams**: This hook gives an access to multiple contents in the same URL path, then it enables each parameter to have a unique identification.
