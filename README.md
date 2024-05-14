@@ -26,20 +26,20 @@
 
 - **`React Router Dom Hooks`**:
 
-  - **useLoaderData**: Is a hook that helps to fetch the data for the component before it renders. It improves performance and prevents empty states.
+  - **_useLoaderData_**: Is a hook that helps to fetch the data for the component before it renders. It improves performance and prevents empty states.
 
     **`Note`**: This hook can be used only in the element that's assigned to a route **AND** in all components that might be used inside that element but not on a higher level route.
 
-  - **useRouteLoaderData**: Is a hook that efficiently manages loading states and data for specific routes. It optimizes rendering by fetching data only when needed, enhancing user experience.
+  - **_useRouteLoaderData_**: Is a hook that efficiently manages loading states and data for specific routes. It optimizes rendering by fetching data only when needed, enhancing user experience.
 
 - Relative Paths
 - **`React Hooks`**:
-  - **useParams**: This hook gives an access to multiple contents in the same URL path, then it enables each parameter to have a unique identification.
+  - **_useParams_**: This hook gives an access to multiple contents in the same URL path, then it enables each parameter to have a unique identification.
 - **`React Router Components`**:
-  - **NavLink**: Is used for navigation between pages.
-  - **Outlet**: Is a component provided by React Router that serves as a placeholder for child routes within a parent route.
-- **Nested Routes, Indexed Routes, and Dynamic Routes**.
-- **Handling Errors, and use Custom Error Handler**.
+  - **_NavLink_**: Is used for navigation between pages.
+  - **_Outlet_**: Is a component provided by React Router that serves as a placeholder for child routes within a parent route.
+- Nested Routes, Indexed Routes, and Dynamic Routes.
+- Handling Errors, and use Custom Error Handler.
 
 ---
 
