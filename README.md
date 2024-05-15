@@ -16,7 +16,8 @@
 
 ## 🧰 Tech Stack:
 
-- React + React Router
+- React
+- React Router Dom v6
 - JavaScript
 - NodeJS
 - ExpressJS
@@ -31,6 +32,7 @@
     **`Note`**: This hook can be used only in the element that's assigned to a route **AND** in all components that might be used inside that element but not on a higher level route.
 
   - **_useRouteLoaderData_**: Is a hook that efficiently manages loading states and data for specific routes. It optimizes rendering by fetching data only when needed, enhancing user experience.
+  - **_useNavigate_**: Is a hook that returns a function that lets you navigate programmatically.
 
 - Relative Paths
 - **`React Hooks`**:
@@ -40,6 +42,8 @@
   - **_Outlet_**: Is a component provided by React Router that serves as a placeholder for child routes within a parent route.
 - Nested Routes, Indexed Routes, and Dynamic Routes.
 - Handling Errors, and use Custom Error Handler.
+- **_loader_**: **loader** function can be define in each route to provide data to the route element before it renders.
+- **_redirect_**: When returning or throwing responses in loaders and actions, we can use **redirect** to redirect to another route.
 
 ---
 
