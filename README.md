@@ -34,6 +34,7 @@
   - **_useRouteLoaderData_**: Is a hook that efficiently manages loading states and data for specific routes. It optimizes rendering by fetching data only when needed, enhancing user experience.
   - **_useNavigate_**: Is a hook that returns a function that lets you navigate programmatically.
   - **_useRouteError_**: This hook returns anything during an action, loader, or rendering inside of an **errorElement**
+  - **_useSubmit_**: Is a hook that enables form submission programmatically. It returns a function that mimics a form submission without needing a form element.
 
 - **`React Hooks`**:
   - **_useParams_**: This hook gives an access to multiple contents in the same URL path, then it enables each parameter to have a unique identification.
