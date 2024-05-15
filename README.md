@@ -49,6 +49,8 @@
 
   **`Note`**: It's recommended to use **redirect** in loaders and actions rather than **useNavigate** in your components when the **redirect** is in response to data.
 
+- **_Validate_** user input and **_Handle Validation Errors_**.
+
 ---
 
 # ✨ How to Get Started:
