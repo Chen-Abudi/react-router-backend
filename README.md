@@ -35,14 +35,14 @@
   - **_useNavigate_**: Is a hook that returns a function that lets you navigate programmatically.
   - **_useRouteError_**: This hook returns anything during an action, loader, or rendering inside of an **errorElement**
 
-- Relative Paths
 - **`React Hooks`**:
   - **_useParams_**: This hook gives an access to multiple contents in the same URL path, then it enables each parameter to have a unique identification.
 - **`React Router Components`**:
   - **_NavLink_**: Is used for navigation between pages.
   - **_Outlet_**: Is a component provided by React Router that serves as a placeholder for child routes within a parent route.
 - Nested Routes, Indexed Routes, and Dynamic Routes.
-- Handling Errors, and implemented Custom Error Handler.
+- Relative Paths
+- Handling Errors, and utilize Custom Error Handler.
 - **_loader_**: **loader** function can be define in each route to provide data to the route element before it renders.
 - **_redirect_**: When returning or throwing responses in loaders and actions, we can use **redirect** to redirect to another route.
 
