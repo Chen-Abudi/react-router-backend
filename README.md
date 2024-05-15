@@ -33,6 +33,7 @@
 
   - **_useRouteLoaderData_**: Is a hook that efficiently manages loading states and data for specific routes. It optimizes rendering by fetching data only when needed, enhancing user experience.
   - **_useNavigate_**: Is a hook that returns a function that lets you navigate programmatically.
+  - **_useRouteError_**: This hook returns anything during an action, loader, or rendering inside of an **errorElement**
 
 - Relative Paths
 - **`React Hooks`**:
