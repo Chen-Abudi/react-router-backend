@@ -42,7 +42,7 @@
   - **_NavLink_**: Is used for navigation between pages.
   - **_Outlet_**: Is a component provided by React Router that serves as a placeholder for child routes within a parent route.
 - Nested Routes, Indexed Routes, and Dynamic Routes.
-- Handling Errors, and use Custom Error Handler.
+- Handling Errors, and implemented Custom Error Handler.
 - **_loader_**: **loader** function can be define in each route to provide data to the route element before it renders.
 - **_redirect_**: When returning or throwing responses in loaders and actions, we can use **redirect** to redirect to another route.
 
