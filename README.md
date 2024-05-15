@@ -45,6 +45,8 @@
 - **_loader_**: **loader** function can be define in each route to provide data to the route element before it renders.
 - **_redirect_**: When returning or throwing responses in loaders and actions, we can use **redirect** to redirect to another route.
 
+  **`Note`**: It's recommended to use **redirect** in loaders and actions rather than **useNavigate** in your components when the **redirect** is in response to data.
+
 ---
 
 # ✨ How to Get Started:
