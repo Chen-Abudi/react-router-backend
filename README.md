@@ -25,6 +25,14 @@
 
 ## 🛠️ Techniques:
 
+- **`React Hooks`**:
+
+  - **_useParams_**: This hook gives an access to multiple contents in the same URL path, then it enables each parameter to have a unique identification.
+
+- **`React Components`**:
+
+  - **_Suspense_**: Is a built-in React component which lets us temporarily render a fallback UI while its children are still loading.
+
 - **`React Router Dom Hooks`**:
 
   - **_useLoaderData_**: Is a hook that helps to fetch the data for the component before it renders. It improves performance and prevents empty states.
@@ -36,9 +44,7 @@
   - **_useRouteError_**: This hook returns anything during an action, loader, or rendering inside of an **errorElement**
   - **_useSubmit_**: Is a hook that enables form submission programmatically. It returns a function that mimics a form submission without needing a form element.
 
-- **`React Hooks`**:
-  - **_useParams_**: This hook gives an access to multiple contents in the same URL path, then it enables each parameter to have a unique identification.
-- **`React Router Components`**:
+- **`React Router Dom Components`**:
   - **_NavLink_**: Is used for navigation between pages.
   - **_Outlet_**: Is a component provided by React Router that serves as a placeholder for child routes within a parent route.
   - **_Await_**: Is a component that designed to handle the rendering of deferred values with automatic error handling.
