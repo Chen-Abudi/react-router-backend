@@ -41,6 +41,8 @@
 - **`React Router Components`**:
   - **_NavLink_**: Is used for navigation between pages.
   - **_Outlet_**: Is a component provided by React Router that serves as a placeholder for child routes within a parent route.
+  - **_Await_**: Is a component that designed to handle the rendering of deferred values with automatic error handling.
+- **_defer_**: Is a utility that allows us to defer values returned from loaders by passing promises instead of resolved values.
 - Nested Routes, Indexed Routes, and Dynamic Routes.
 - Relative Paths
 - Handling Errors, and utilize Custom Error Handler.
