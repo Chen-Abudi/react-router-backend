@@ -42,7 +42,6 @@ async function loadEvent(id) {
       }
     );
   } else {
-    // return response;
     const resData = await response.json();
     return resData.event;
   }
@@ -71,19 +70,6 @@ export async function loader({ request, params }) {
     event: await loadEvent(id),
     events: loadEvents(),
   });
-
-  // const response = await fetch("http://localhost:8080/events/" + id);
-
-  // if (!response.ok) {
-  //   throw json(
-  //     { message: "Could not fetch details for selected event." },
-  //     {
-  //       status: 500,
-  //     }
-  //   );
-  // } else {
-  //   return response;
-  // }
 }
 
 export async function action({ params, request }) {
