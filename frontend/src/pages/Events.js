@@ -6,11 +6,6 @@ import EventsList from "../components/EventsList.js";
 function EventsPage() {
   const { events } = useLoaderData();
 
-  // if (data.isError) {
-  //   return <p>{data.message}</p>;
-  // }
-  // const events = data.events;
-
   return (
     <Suspense fallback={<p style={{ textAlign: "center" }}>Loading...</p>}>
       <Await resolve={events}>
@@ -18,8 +13,6 @@ function EventsPage() {
       </Await>
     </Suspense>
   );
-
-  // return <EventsList events={events} />;
 }
 
 export default EventsPage;
@@ -35,7 +28,6 @@ async function loadEvents() {
       }
     );
   } else {
-    // return response;
     const resData = await response.json();
     return resData.events;
   }
