@@ -19,7 +19,7 @@
 - React
 - React Router Dom v6
 - JavaScript
-- NodeJS
+- NodeJS + NodeJS Libraries
 - ExpressJS
 - CSS Modules
 
